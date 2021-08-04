@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: midiSynth
+Version: 0.2
+Summary: UNKNOWN
+Home-page: https://github.com/annahung31/midi_synth.git
+Author: annahung31
+Author-email: fbiannahung@gmail.com
+License: MIT
+Keywords: music midi mir
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Sound/Audio :: MIDI
+License-File: LICENSE
+
+UNKNOWN
+

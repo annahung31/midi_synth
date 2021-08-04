@@ -9,10 +9,29 @@ wget https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPian
 tar Jxvf SalamanderGrandPiano-SF2-V3+20200602.tar.xz  
 ```
 
-## Requirement
+## Install
 
 ```
-pip install pretty_midi
+pip install midiSynth==0.2
+```
+
+## Usage
+
+1. Without soundfont:
+
+```
+from midiSynth.synth import MidiSynth
+midi_synth = MidiSynth()
+midi_synth.play_midi('test.mid')
+midi_synth.midi2audio('test.mid', 'output.mp3')
+```
+2. Use other soundfont: 
+
+```
+path_sf = PATH_OF_THE_SF2_FILE
+midi_synth = MidiSynth(path_sf = path_sf)
+midi_synth.play_midi('test.mid')
+midi_synth.midi2audio('test.mid', 'output.mp3')
 ```
 
 
